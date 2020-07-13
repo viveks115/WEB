@@ -1,7 +1,8 @@
-.inde {
+inde {
   background-image: url(https://images.pexels.com/photos/132700/pexels-photo-132700.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 20px;
 }
 h1 {
   color: rgb(19, 0, 83);
@@ -12,8 +13,28 @@ p {
   width: 75%;
   font: outline;
   font-family: monospace;
-  background-color: whitesmoke;
+  background-color: #eaf2e3;
 }
 #imgproc {
   width: 50%;
+  background-size: cover;
+}
+p::selection {
+  color: black;
+  background-color: red;
+}
+
+.link {
+  text-decoration: grey;
+  margin-left: 20px;
+  word-spacing: 20px;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  transition: cubic-bezier(1, 0, 0, 1);
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.nav-item {
+  margin-right: 20px;
+  color: aliceblue;
 }
